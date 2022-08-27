@@ -1,0 +1,197 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Mouse+Memoirs&family=Updock&display=swap');
+
+nav ul li a:hover{
+    font-size: 27px;
+}
+@media screen and (max-width:1000px) {
+*{
+    font-family:'Lobster', cursive,'Times New Roman', Times, serif;
+}
+
+    .logo img {
+        height: 6vh;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+    .container {
+        height: 50vh;
+    }
+
+    .carousel .item img {
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .carousel-inner {
+        height: 50vh;
+    }
+
+    .carousel-caption {
+        display: inline-flex;
+        flex-direction: column;
+        width: 90vw;
+        top: 15%;
+        left: 5%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .carousel-caption h1 {
+        font-size: 40px;
+        margin: 2px;
+        -webkit-text-stroke: 1px white;
+    }
+
+    .carousel-caption p {
+        font-size: 20px;
+        -webkit-text-stroke: 0.7px white;
+    }
+
+    #section07 {
+        visibility: hidden;
+    }
+
+    .intro .typewrite{
+        font-size: 36px;
+        height: 130px;
+        text-align: center;
+    }
+
+    .intro p {
+        width: 90vw;
+    }
+
+    .container1 div {
+        width: 90vw;
+    }
+
+    .container1 p {
+        width: 80vw;
+    }
+
+    .container2 .card {
+        width: 90vw;
+    }
+
+    .container2 .card p {
+        width: 80vw;
+    }
+
+    #products{
+        padding: 0px;
+    }
+    .container4{
+        width:90vw;
+        height: 200px;
+    }
+    .carousel1__item,.carousel1__item--mobile-in-1,.carousel1__item--tablet-in-2,.carousel1__item--desktop-in-3{
+        width: 22%;
+    }
+    .carousel1__activator:nth-of-type(1):checked
+~ .carousel1__screen
+.carousel1__track {
+  -webkit-transform: translateX(0%);
+          transform: translateX(0%);
+}
+    .demo-content{
+        height: 160px;
+        width: 90%;
+    }
+
+    .container5{
+        flex-direction: column;
+        height: auto;
+    }
+    .container5 .card{
+        height: auto;
+        width: 90vw;
+    }
+    .container5 .card h1{
+        padding: 0px;
+        margin-top: 20px;
+        font-size: 25px;
+        height: 10px;
+    }
+    .container5 .card h4{
+        padding: 2px;
+        /* margin-top: 20px; */
+        font-size: 15px;
+        /* height: 10px; */
+        margin-left: 20px;
+    }
+    .container5 .card a{
+        font-size: 15px;
+        padding: 0px;
+        margin-left: 20px;
+    }
+
+    #boxes{
+        top: 100px;
+    }
+
+    .items{
+        width: 300px;
+        height: 300px;
+        margin: 30px;
+    }
+
+    .typewrite{
+        font-size: 40px;
+        height: 100px;
+    }
+
+    .container6{
+        all: initial;
+    }
+
+    .container6 *{
+        all: unset;
+    }
+
+    .container6 .info{
+        flex-direction: column;
+        
+        width:100vw;
+    }
+
+    .container6{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .container6 .info{
+        width: 90vw;
+        text-align: left; 
+        color: black;
+    }
+    .container6 .info pre{ 
+        font-family:'Lobster', cursive,'Times New Roman', Times, serif;
+        font-size: 20px;
+        display: block;
+        /* padding: 10px; */
+        /* width: 90vw; */
+    }
+    .container6 .info img{ 
+        height: auto;
+        width: 90vw;
+    }
+
+    .container6  .map{
+        height: 50vh;
+        width: 95vw;
+        margin: 10px;
+        background-color: aliceblue;
+    }
+
+    .container6 .map iframe{
+        width: 95vw;
+        height: 50vh;
+    }
+    
+}
